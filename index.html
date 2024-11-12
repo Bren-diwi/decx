@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--comentario -->
+<html>
+ <head>
+     <meta charset="UTF-8">
+     <title>
+         Decx 
+     </title>
+ </head>
+ <body background="pict/cod.jpg">
+    
+     <center>
+        <img src="pict/over.jpg" width="250px" height="auto">
+        <br>
+     <font size="31px" color="#009894">
+         Decx
+     </font>
+     </center>
+     <form id="frmIngresar" name="frmIngresar" method="POST" action="verificar.php">
+        <center>
+        Correo 
+        <input type="email" id="emCorreo" name="emCorreo" placeholder="correo@outlook,gmail,etc.com"size="32" minlength="3" maxlength="64">
+        </center>
+        <center>
+        Password
+        <input type="password" id="pwContrasena" name="pwContrasena"placeholder="Pon tu contra"size="32" minlength="3" maxlength="64">
+        <br>
+        <input type="submit" id="btnIngresar" name="btnIngresar" value="Vamos Alla">
+        </center>
+        <br>
+        <br>
+        <br>
+     </form>
+        <form id="frmRegistro" name="frmRegistro" action="registro.php" method="POST" >
+          
+            <center>
+        Correo
+        <input type="email" id="emCorreoR" name="emCorreoR" placeholder="correo@outlook,gmail,etc.com"size="32" minlength="3" maxlength="64">
+        </center>
+        <center>
+            Nombre
+            <input type="text" id="txtNombre" name="txtNombre"
+        </center>
+        <br>
+         <center>
+        Pon aqui tu Password
+         <input type="password" id="pwContrasenaR" name="pwContrasenaR"placeholder="Pon tu contra"size="32" minlength="3" maxlength="64">
+         </center>
+         <center>
+        Confirmacion de Password
+        <input type="password" id="pwContrasenaC" name="pwContrasenaC"placeholder="Pon tu contra"size="32" minlength="3" maxlength="64">
+        <br>
+        </center>
+        <br>
+        <center>
+            Fecha De Nacimiento
+         <input type="date" id="FechaN" name="FechaN"
+       value="2021-07-22"
+       min="1940-01-01" max="2040-12-31">
+        </center>
+        <center>
+        <input type="submit" id="btnRegisto" name="btnRegistro" value="Ah Rodar">
+        </center>
+  
+       
+    </form>
+ </body>
+ 
+
+</html>
